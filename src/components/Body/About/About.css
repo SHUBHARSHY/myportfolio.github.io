@@ -1,0 +1,70 @@
+.hand {
+  color: #ffe000;
+}
+.about {
+  margin-top: 73px;
+  padding-bottom: 48px;
+}
+.about-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-photo{
+    background-color: #4c5a5a;
+    border-radius: 50%;
+    padding: 27px;
+}
+
+.picture{
+    /* height: 420px; */
+    border-radius: 50%;
+}
+img.picture{
+    height: 300px;
+    background-color: #f68b1f;
+
+
+}
+
+.about-info{
+    font-size: 24px;
+border-radius: 10px;
+
+    background: #4c5a5a;
+    padding: 110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 0px;
+}
+
+.info-name{
+    color:#f68b1f;
+    font-size: 34px;
+    font-style: oblique;
+}
+/* .about-bottom{
+    display: flex;
+    align-items: center;
+} */
+@media only screen and (max-width: 761px){
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture{
+        height: 280px;
+    }
+    .about-info{
+        font-size: 20px;
+
+    }
+    .info-name{
+        font-size: 26px;
+    }
+    img.picture{
+        height: 220px;
+    }
+
+}

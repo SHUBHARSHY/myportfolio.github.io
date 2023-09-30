@@ -1,0 +1,11 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.project-photo{
+    height: 220px;
+    box-shadow: -5px -5px 15px #384243;
+    border-radius: 10px;
+
+}

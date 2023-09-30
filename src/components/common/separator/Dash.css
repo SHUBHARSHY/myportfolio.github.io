@@ -1,0 +1,8 @@
+.dash{
+    background-image: linear-gradient(to right top, #384243, #2b6152, #4d7d3f, #968e17, #f68b1f);
+    height: 6px;
+    width: 100%;
+    border-radius: 3px;
+    margin: 16px 0px;
+    box-shadow: 10px 3px 10px rgb(0 0 0);
+}

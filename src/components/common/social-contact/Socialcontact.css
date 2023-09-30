@@ -1,0 +1,22 @@
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-div{
+display: inline-flex;
+ padding: 6px;
+ cursor: pointer;
+ margin: 6px;
+
+}
+.social-icon{
+    height:40px
+}
+
+@media only screen and (max-width: 761px){
+    .social-icon{
+        height: 32px;
+    }
+}
